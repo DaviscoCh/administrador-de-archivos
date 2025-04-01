@@ -2,6 +2,12 @@ Class Calculadora {
   sumar(a, b){
     return a + b;
   }
+
+  dividir (a, b){
+    if(b===0){return null}
+    return a / b;
+  }
+
   multiplicar(a, b){
     return a * b;
   }
