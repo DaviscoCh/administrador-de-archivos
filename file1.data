@@ -3,6 +3,10 @@ Class Calculadora {
     return a + b;
   }
 
+  restar (a, b){
+    return a -b;
+  }
+
   dividir (a, b){
     if(b===0){return null}
     return a / b;
